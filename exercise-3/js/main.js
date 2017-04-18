@@ -146,4 +146,12 @@ $(function() {
                 return drawHeight - yScale(d.percent);
             });
     });
+
+    $('label').click(function(d) {
+      //var c = d.currentTarget.childNodes[1].class;
+      //console.log(d.currentTarget.childNodes[1].class);
+      var v = d.currentTarget.childNodes[1].value;
+      //console.log(c + " " + v);
+    });
+
 });
